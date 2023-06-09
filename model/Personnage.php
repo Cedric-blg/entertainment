@@ -1,3 +1,8 @@
 <?php
-
-echo 'coucou';
+class Personnage 
+{
+    public function __construct()
+    {
+        echo 'coucou';
+    }
+}

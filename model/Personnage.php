@@ -5,4 +5,9 @@ class Personnage
     {
         echo 'coucou';
     }
+
+    public function hello(string $name):string
+    {
+        return 'Bonjour' . $name;
+    }
 }
